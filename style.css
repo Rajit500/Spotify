@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wdth,wght@85.9,400..700&family=Jim+Nightshade&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav ul{
+     display: flex;
+     list-style-type: none; 
+     height: 65px;
+     background-color: black;
+     color: aliceblue;
+     align-items: center;
+
+}
+
+.brand img{
+    height: 65px;
+    width: 55px;
+}
+ 
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li{
+    padding: 0px 8px;
+}
+
+.navi{
+    font-size: large;
+    display: flex;
+    padding: 0px 15px;
+}
