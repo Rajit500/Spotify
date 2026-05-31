@@ -15,6 +15,10 @@ nav{
 
 }
 
+h1{
+    font-family: "Jim Nightshade", cursive; 
+}
+
 nav ul{
      display: flex;
      list-style-type: none; 
@@ -46,3 +50,63 @@ nav ul li{
     display: flex;
     padding: 0px 15px;
 }
+
+
+.container{
+    height: 79vh;
+    background-color: black;
+    color: white;
+    margin: 10px 300px;
+    border-radius: 15px;
+    padding: 10px;
+    background-image: url(guitarimg.jpeg);
+    background-size: cover;
+
+}
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+#myProgressBar{
+    width: 80vw;
+}
+
+.icons{
+    margin-top: 15px;
+
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.songItem img{
+     height: 50px;
+     width: 50px;
+     margin: 0 10px;
+     border-radius: 34px;
+}
+
+.songItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    height: 45px;
+    width: 30%;
+    font-size: 25px;
+    font-family: "Jim Nightshade", cursive;
+    margin: 35px 0px;
+    border-radius: 25px;
+
+}
+
